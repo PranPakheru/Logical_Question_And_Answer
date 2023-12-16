@@ -18,16 +18,49 @@ public class Sum_of_digits_of_number {
 		return res;
 	}
 	
-//	public static void main(String[] args) {
-//		System.out.println(Sum_of_digits_of_number.sumOfDigits(125));	//can give any number
-//	}
+	public static void main(String[] args) {
+		System.out.println(Sum_of_digits_of_number.sumOfDigits(125));	//can give any number
+	}
 	
 	//for custom inputs
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Please enter digit...");
-		int x = scan.nextInt();
-		scan.close();
-		System.out.println("The sum of digits of number is: " +Sum_of_digits_of_number.sumOfDigits(x));
-	}
+//	public static void main(String[] args) {
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("Please enter digit...");
+//		int x = scan.nextInt();
+//		scan.close();
+//		System.out.println("The sum of digits of number is: " +Sum_of_digits_of_number.sumOfDigits(x));
+//	}
 }
+
+
+
+//problem statement below...
+//Write a program in Java to find sum of digits of a number using recursion.
+
+//public class Sum_of_digits_of_number {
+//
+//	static int res = 0;
+//	static int rem;
+//	public static int sumOfDigits(int x) {
+//		
+//		res += x%10;	//3
+//		rem = x/10;	//12
+//		while(rem!=0) {	
+//			sumOfDigits(rem);
+//		}
+//		return res;
+//	}
+//	
+////	public static void main(String[] args) {
+////		System.out.println(Sum_of_digits_of_number.sumOfDigits(125));	//can give any number
+////	}
+//	
+//	//for custom inputs
+//	public static void main(String[] args) {
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("Please enter digit...");
+//		int x = scan.nextInt();
+//		scan.close();
+//		System.out.println("The sum of digits of number is: " +Sum_of_digits_of_number.sumOfDigits(x));
+//	}
+//}
