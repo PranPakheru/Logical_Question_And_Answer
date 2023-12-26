@@ -94,3 +94,52 @@ public class Count_the_occurrence {
 ////		Count_the_occurrence.countVovelAndConsonent(str);
 ////	}
 //}
+
+
+
+//Java program to count alphabets, digits and special characters.
+
+//public class Count_the_occurrence {
+//
+//	public static void countTheOccurrencyOfEverything(String str) {
+//		
+//		List<Integer> listInt = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
+//		List<Character> listSpCh = Arrays.asList('!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+', '<', '>', '?', '/',
+//				',', '.', '|', '{', '}', '[', ']', '`', '~');
+//		int countInt = 0;
+//		int countSpCh = 0;
+//		int countAlph = 0;
+//		
+//		for(int i=0; i<str.length(); i++) {
+//			if(listInt.contains(Character.getNumericValue(str.charAt(i)))) {
+//				countInt++;
+//			}
+//			else if(listSpCh.contains(str.charAt(i))) {
+//				countSpCh++;
+//			}
+//			else if(str.charAt(i) == ' ' ){
+//				
+//			}
+//			else{
+//				countAlph++;
+//			}
+//		}
+//		
+//		System.out.println("The number of integers are: " +countInt);
+//		System.out.println("The number of special character are: " +countSpCh);
+//		System.out.println("The number of alphabets are: " +countAlph);
+//	}
+//	
+////	public static void main(String[] srgs) {
+////		Count_the_occurrence.countTheOccurrencyOfEverything("Honesty is the best policy");
+////	}
+//	
+//	//for custom input
+//	public static void main(String[] srgs) {
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("Please enter any line or phrase...");
+//		String str = scan.nextLine();
+//		scan.close();
+//		Count_the_occurrence.countTheOccurrencyOfEverything(str);
+//	}
+//}
